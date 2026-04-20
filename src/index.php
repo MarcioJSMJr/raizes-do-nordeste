@@ -1,6 +1,5 @@
 <?php
 require_once __DIR__ . '/config.php';
-require_once __DIR__ . '/model/session.php';
 
 $view_folder = $is_admin_area ? 'view/admin/' : 'view/';
 
@@ -16,8 +15,6 @@ if (!file_exists($page_file_path)) {
     http_response_code(404);
 }
 
-// fix: gambiarra horrível para evitar que o HTML sendo enviado antes dos headers
-ob_start();
 if (file_exists($page_file_path)) {
     include($page_file_path);
 } else {
@@ -34,7 +31,7 @@ $content = ob_get_clean();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title><?= $is_admin_area ? 'Admin' : 'Área do Cliente'; ?> | Serafim Acompanhamento</title>
+    <title><?= $is_admin_area ? 'Admin' : 'Área do Cliente'; ?> | Raizes do Nordeste</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
