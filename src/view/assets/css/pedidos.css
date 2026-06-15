@@ -1,0 +1,46 @@
+.order-card {
+    border-radius: 1.2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: var(--background-header);
+}
+
+.order-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.8rem 1.5rem rgba(62, 39, 35, 0.08) !important;
+}
+
+.order-icon {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-pagination .page-link {
+    color: var(--body-color);
+    margin: 0 4px;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.custom-pagination .page-link:hover {
+    background-color: rgba(230, 81, 0, 0.1);
+    color: var(--primary-color);
+}
+
+.custom-pagination .page-item.active .page-link {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.custom-pagination .page-item.disabled .page-link {
+    color: #ccc;
+    background-color: #f9f9f9;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #ffffff !important;
+}

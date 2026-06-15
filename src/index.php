@@ -15,6 +15,8 @@ if (!file_exists($page_file_path)) {
     http_response_code(404);
 }
 
+ob_start();
+
 if (file_exists($page_file_path)) {
     include($page_file_path);
 } else {
@@ -67,7 +69,7 @@ $content = ob_get_clean();
     if (!file_exists($navbar_path)) $navbar_path = 'view/includes/navbar.php';
     if (!file_exists($sidebar_path)) $sidebar_path = 'view/includes/sidebar.php';
 
-    if ($page_name !== 'login' && $page_name !== '404' && $page_name !== 'listar_obras') {
+    if ($page_name !== 'login' && $page_name !== '404') {
         if (file_exists($navbar_path)) require_once $navbar_path;
         if (file_exists($sidebar_path)) require_once $sidebar_path;
     }
