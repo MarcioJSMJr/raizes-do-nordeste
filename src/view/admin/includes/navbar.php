@@ -17,7 +17,7 @@
                     <i class="bi bi-person-badge"></i>
                 </div>
                 <span class="me-3 fw-medium text-dark small d-none d-sm-inline">Atendente</span>
-                <a href="<?= BASE_URL; ?>login" class="btn btn-sm btn-outline-dark rounded-pill px-3">Sair</a>
+                <a href="<?= BASE_URL; ?>admin/login" class="btn btn-sm btn-outline-dark rounded-pill px-3">Sair</a>
             </div>
 
         </div>

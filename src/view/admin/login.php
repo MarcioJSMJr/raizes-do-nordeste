@@ -10,7 +10,7 @@
                 <p class="text-muted small">Acesso restrito à equipe e gerência.</p>
             </div>
 
-            <form action="<?= BASE_URL; ?>admin/painel" method="POST">
+            <form action="<?= BASE_URL; ?>admin/cozinha" method="POST">
                 <div class="mb-3 text-start">
                     <label class="form-label small fw-medium text-muted">E-mail Corporativo</label>
                     <input type="email" class="form-control admin-auth-input" placeholder="gerencia@raizes.com" required>

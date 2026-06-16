@@ -1,0 +1,24 @@
+@startuml
+|Cliente|
+start
+:Acessa a plataforma Raízes do Nordeste;
+if (Já possui conta?) then (Não)
+  :Realiza Cadastro;
+else (Sim)
+  :Faz Login;
+endif
+:Navega pelo Cardápio;
+:Adiciona pratos ao Carrinho;
+:Acessa o Checkout;
+:Seleciona Endereço e Método de Pagamento;
+
+|Sistema (Pagamento Externo)|
+:Processa simulação de pagamento (Pix/Cartão);
+:Aprova transação;
+
+|Cliente|
+:Visualiza Confirmação do Pedido;
+:Acompanha Status em Tempo Real;
+:Recebe o Pedido e Acumula Pontos de Fidelidade;
+stop
+@enduml

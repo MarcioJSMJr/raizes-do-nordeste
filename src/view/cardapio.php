@@ -33,7 +33,7 @@
         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card h-100 menu-card border-0 shadow-sm">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Baião de Dois">
+                    <img src="<?= BASE_URL; ?>view/assets/images/baiao.png" class="card-img-top" alt="Baião de Dois">
                     <span class="badge bg-danger position-absolute top-0 end-0 m-3 shadow">Mais Vendido</span>
                 </div>
                 <div class="card-body d-flex flex-column">
@@ -50,7 +50,7 @@
         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card h-100 menu-card border-0 shadow-sm">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Tapioca">
+                    <img src="<?= BASE_URL; ?>view/assets/images/tapioca.png" class="card-img-top" alt="Tapioca">
                 </div>
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title fw-bold">Tapioca de Carne de Sol</h5>
@@ -66,7 +66,7 @@
         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card h-100 menu-card border-0 shadow-sm">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1596450514735-111a2fe02935?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Cuscuz">
+                    <img src="<?= BASE_URL; ?>view/assets/images/cuscuz.png" class="card-img-top" alt="Cuscuz">
                 </div>
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title fw-bold">Cuscuz com Ovo e Queijo</h5>
@@ -82,7 +82,7 @@
         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card h-100 menu-card border-0 shadow-sm">
                 <div class="card-img-container">
-                    <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Suco">
+                    <img src="<?= BASE_URL; ?>view/assets/images/suco.png" class="card-img-top" alt="Suco">
                 </div>
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title fw-bold">Suco de Caju Natural</h5>

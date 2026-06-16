@@ -20,7 +20,7 @@
         <div class="col-12 col-md-6 col-xl-4">
             <div class="card edit-menu-card border-0 shadow-sm h-100">
                 <div class="d-flex align-items-center p-3 border-bottom border-light">
-                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=200&auto=format&fit=crop" class="rounded-3 me-3" style="width: 70px; height: 70px; object-fit: cover;" alt="Baião">
+                    <img src="<?= BASE_URL; ?>view/admin/assets/images/baiao.png" class="rounded-3 me-3" style="width: 70px; height: 70px; object-fit: cover;" alt="Baião">
                     <div class="flex-grow-1">
                         <h6 class="fw-bold mb-1">Baião de Dois Completo</h6>
                         <span class="badge bg-success bg-opacity-10 text-success rounded-pill small">Ativo</span>
@@ -39,7 +39,7 @@
         <div class="col-12 col-md-6 col-xl-4">
             <div class="card edit-menu-card border-0 shadow-sm h-100 inactive-item">
                 <div class="d-flex align-items-center p-3 border-bottom border-light">
-                    <img src="https://images.unsplash.com/photo-1596450514735-111a2fe02935?q=80&w=200&auto=format&fit=crop" class="rounded-3 me-3 opacity-50" style="width: 70px; height: 70px; object-fit: cover;" alt="Cuscuz">
+                    <img src="<?= BASE_URL; ?>view/admin/assets/images/cuscuz.png" class="rounded-3 me-3 opacity-50" style="width: 70px; height: 70px; object-fit: cover;" alt="Cuscuz">
                     <div class="flex-grow-1">
                         <h6 class="fw-bold mb-1 text-muted">Cuscuz com Ovo e Queijo</h6>
                         <span class="badge bg-secondary bg-opacity-10 text-secondary rounded-pill small">Pausado</span>
