@@ -41,7 +41,7 @@
                     <p class="card-text text-muted small mb-3">Arroz, feijão de corda, queijo coalho, carne de sol e manteiga da terra.</p>
                     <div class="mt-auto d-flex justify-content-between align-items-center">
                         <span class="price fw-bolder fs-5">R$ 38,90</span>
-                        <button class="btn btn-add rounded-pill px-3 fw-medium"><i class="bi bi-plus-lg me-1"></i> Pedir</button>
+                        <a href="<?= BASE_URL; ?>checkout" class="btn btn-add rounded-pill px-3 fw-medium text-decoration-none"><i class="bi bi-plus-lg me-1"></i> Pedir</a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     <p class="card-text text-muted small mb-3">Tapioca artesanal recheada com carne de sol desfiada e catupiry.</p>
                     <div class="mt-auto d-flex justify-content-between align-items-center">
                         <span class="price fw-bolder fs-5">R$ 22,00</span>
-                        <button class="btn btn-add rounded-pill px-3 fw-medium"><i class="bi bi-plus-lg me-1"></i> Pedir</button>
+                        <a href="<?= BASE_URL; ?>checkout" class="btn btn-add rounded-pill px-3 fw-medium text-decoration-none"><i class="bi bi-plus-lg me-1"></i> Pedir</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                     <p class="card-text text-muted small mb-3">Clássico cuscuz de milho quentinho, acompanhado de ovo frito e queijo.</p>
                     <div class="mt-auto d-flex justify-content-between align-items-center">
                         <span class="price fw-bolder fs-5">R$ 15,50</span>
-                        <button class="btn btn-add rounded-pill px-3 fw-medium"><i class="bi bi-plus-lg me-1"></i> Pedir</button>
+                        <a href="<?= BASE_URL; ?>checkout" class="btn btn-add rounded-pill px-3 fw-medium text-decoration-none"><i class="bi bi-plus-lg me-1"></i> Pedir</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                     <p class="card-text text-muted small mb-3">Suco refrescante e natural da fruta, servido bem gelado (500ml).</p>
                     <div class="mt-auto d-flex justify-content-between align-items-center">
                         <span class="price fw-bolder fs-5">R$ 9,00</span>
-                        <button class="btn btn-add rounded-pill px-3 fw-medium"><i class="bi bi-plus-lg me-1"></i> Pedir</button>
+                        <a href="<?= BASE_URL; ?>checkout" class="btn btn-add rounded-pill px-3 fw-medium text-decoration-none"><i class="bi bi-plus-lg me-1"></i> Pedir</a>
                     </div>
                 </div>
             </div>

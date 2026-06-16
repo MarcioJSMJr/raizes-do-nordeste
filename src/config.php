@@ -1,5 +1,5 @@
 <?php
-// Define a URL base do site
+
 if (!defined('BASE_URL')) {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
     $host = $_SERVER['HTTP_HOST'];
@@ -8,16 +8,18 @@ if (!defined('BASE_URL')) {
     define('BASE_URL', $baseUrl);
 }
 
-// Captura a URL ou define 'home' como padrão
-$url = isset($_GET['url']) ? rtrim($_GET['url'], '/') : 'home';
+$url = isset($_GET['url']) && !empty($_GET['url']) ? rtrim($_GET['url'], '/') : 'login';
 $url_parts = explode('/', $url);
 
-// LÓGICA DE SEPARAÇÃO 
 $is_admin_area = false;
 
 if (isset($url_parts[0]) && $url_parts[0] === 'admin') {
+
     $is_admin_area = true;
-    $page_name = isset($url_parts[1]) && !empty($url_parts[1]) ? $url_parts[1] : 'home';
+    $page_name = isset($url_parts[1]) && !empty($url_parts[1]) ? $url_parts[1] : 'login';
+
 } else {
-    $page_name = isset($url_parts[0]) && !empty($url_parts[0]) ? $url_parts[0] : 'home';
+
+    $page_name = isset($url_parts[0]) && !empty($url_parts[0]) ? $url_parts[0] : 'login';
+
 }

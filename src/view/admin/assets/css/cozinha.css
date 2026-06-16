@@ -1,0 +1,34 @@
+.ticket-card {
+    border-width: 3px;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.ticket-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.ticket-card .card-header {
+    border-bottom: none;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.blink-text {
+    animation: blink 1.5s infinite;
+}
+
+.btn-pronto {
+    border-radius: 0.8rem;
+    transition: all 0.2s ease;
+}
+
+.btn-pronto:active {
+    transform: scale(0.96);
+}

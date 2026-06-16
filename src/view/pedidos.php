@@ -39,7 +39,7 @@
                     </div>
                     <div class="d-flex flex-column align-items-md-end gap-2">
                         <span class="fw-bolder fs-5" style="color: var(--primary-color);">R$ 47,90</span>
-                        <button class="btn btn-sm btn-outline-secondary rounded-pill px-3">Acompanhar Entrega</button>
+                        <a href="<?= BASE_URL; ?>home" class="btn btn-sm btn-outline-secondary rounded-pill px-3">Acompanhar Entrega</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                     <div class="d-flex flex-column align-items-md-end gap-2">
                         <span class="fw-bolder fs-5 text-muted">R$ 52,00</span>
                         <div class="d-flex gap-2">
-                            <button class="btn btn-sm btn-outline-primary rounded-pill px-3" style="color: var(--primary-color); border-color: var(--primary-color);">Pedir Novamente</button>
+                            <a href="<?= BASE_URL; ?>cardapio" class="btn btn-sm btn-outline-primary rounded-pill px-3" style="color: var(--primary-color); border-color: var(--primary-color);">Pedir Novamente</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     <div class="d-flex flex-column align-items-md-end gap-2">
                         <span class="fw-bolder fs-5 text-muted">R$ 15,50</span>
                         <div class="d-flex gap-2">
-                            <button class="btn btn-sm btn-outline-primary rounded-pill px-3" style="color: var(--primary-color); border-color: var(--primary-color);">Pedir Novamente</button>
+                            <a href="<?= BASE_URL; ?>cardapio" class="btn btn-sm btn-outline-primary rounded-pill px-3" style="color: var(--primary-color); border-color: var(--primary-color);">Pedir Novamente</a>
                         </div>
                     </div>
                 </div>

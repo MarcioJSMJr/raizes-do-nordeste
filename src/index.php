@@ -69,7 +69,7 @@ $content = ob_get_clean();
     if (!file_exists($navbar_path)) $navbar_path = 'view/includes/navbar.php';
     if (!file_exists($sidebar_path)) $sidebar_path = 'view/includes/sidebar.php';
 
-    if ($page_name !== 'login' && $page_name !== '404') {
+    if ($page_name !== 'login' && $page_name !== '404' && $page_name !== 'cadastro') {
         if (file_exists($navbar_path)) require_once $navbar_path;
         if (file_exists($sidebar_path)) require_once $sidebar_path;
     }
