@@ -1,0 +1,61 @@
+main {
+    padding: 0 !important;
+    margin-left: 0 !important; 
+}
+
+.auth-container {
+    min-height: 100vh;
+    background-color: var(--background-body);
+    padding: 1rem;
+}
+
+.auth-card {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.auth-image-side {
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800&auto=format&fit=crop') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.auth-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(230, 81, 0, 0.85), rgba(62, 39, 35, 0.85));
+}
+
+.auth-input {
+    background-color: var(--background-body);
+    border: 1px solid var(--border-color);
+    border-radius: 0.6rem;
+    padding: 0.6rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.auth-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(230, 81, 0, 0.15);
+    background-color: #ffffff;
+}
+
+.btn-auth {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 0.6rem 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid var(--primary-color);
+}
+
+.btn-auth:hover {
+    background-color: var(--primary-hover);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(230, 81, 0, 0.2);
+}

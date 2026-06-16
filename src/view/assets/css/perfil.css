@@ -1,0 +1,68 @@
+.profile-card {
+    border-radius: 1.2rem;
+    background-color: var(--background-header);
+}
+
+.avatar-wrapper {
+    position: relative;
+    width: 100px;
+}
+
+.edit-avatar-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.edit-avatar-btn:hover {
+    transform: scale(1.1);
+    background-color: var(--primary-hover);
+}
+
+.custom-input {
+    background-color: var(--background-body);
+    border: 1px solid var(--border-color);
+    border-radius: 0.6rem;
+    padding: 0.6rem 1rem;
+    color: var(--body-color);
+    transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(230, 81, 0, 0.15);
+    background-color: #ffffff;
+}
+
+.custom-input::placeholder {
+    color: #adb5bd;
+    opacity: 0.7;
+}
+
+.btn-save {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: 1px solid var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.btn-save:hover {
+    background-color: var(--primary-hover);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(230, 81, 0, 0.2);
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}

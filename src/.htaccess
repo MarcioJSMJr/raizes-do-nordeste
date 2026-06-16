@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Impede que alguém veja a lista de arquivos
+Options -Indexes
+
+# Se tentar acessar algo que não é um arquivo (!-f) ou pasta (!-d) real...
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# manda para o index.php
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]

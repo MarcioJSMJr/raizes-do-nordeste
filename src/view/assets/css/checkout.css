@@ -1,0 +1,47 @@
+.checkout-card {
+    border-radius: 1.2rem;
+    background-color: var(--background-header);
+}
+
+.address-box {
+    background-color: var(--background-body);
+    transition: all 0.2s ease;
+}
+
+.address-box.active {
+    border-color: var(--primary-color) !important;
+    background-color: rgba(230, 81, 0, 0.05);
+}
+
+.payment-box {
+    background-color: var(--background-body);
+    transition: all 0.2s ease;
+}
+
+.payment-box:hover {
+    border-color: #adb5bd !important;
+}
+
+.payment-box:has(input[type="radio"]:checked) {
+    border-color: var(--primary-color) !important;
+    background-color: rgba(230, 81, 0, 0.05);
+    color: var(--primary-color);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.btn-checkout {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: 1px solid var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.btn-checkout:hover {
+    background-color: var(--primary-hover);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(230, 81, 0, 0.2);
+}
