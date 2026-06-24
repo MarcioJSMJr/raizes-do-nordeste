@@ -1,0 +1,63 @@
+main {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.error-content {
+    background-color: var(--background-header);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: var(--card-shadow);
+    max-width: 600px;
+    width: 100%;
+}
+
+.error-code {
+    font-size: 8rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.error-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+
+.error-text {
+    color: var(--body-color);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.btn-return {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-return:hover {
+    background-color: var(--primary-hover);
+    color: var(--text-light);
+}
